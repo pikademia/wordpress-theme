@@ -1,0 +1,150 @@
+/*
+Theme Name: Pikademia
+Theme URI: https://pikademia.pl
+Author: Mateusz
+Author URI: https://pikademia.pl
+Description: Basic theme for wordpress
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue, red, grey
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+:root{
+    --theme-color1:#44aaaa;
+    --theme-color2:#474747;
+}
+.pi-main-header{
+    background-color: black;
+}
+.pi-main-footer{
+    background-color: rgb(54, 54, 54);
+    padding-top:20px;
+    border-top: 3px solid black;
+}
+.pi-footer-text{
+    text-align: center;
+    color:var(--theme-color1);
+}
+.theme-color-1{
+    color:#d45f0b;
+}
+.pi-article-item{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding:10px 0;
+}
+.pi-article-item .entry-title a{
+    color: var(--theme-color1);
+    font-size: 1.2em;
+    text-decoration: none;
+    margin:20px 0;
+    display: block;
+}
+.pi-article-item li, ul{
+    display: inline-block;
+}
+.pi-article-item li a{
+    text-decoration: none;
+    color:darkgrey;
+}
+.custom-logo-link img{
+    max-height: 32px;
+    width: auto;
+}
+.pi-logo{
+    text-align: center;
+    padding: 10px 0;
+}
+.pi-main-menu{
+    text-align: center;
+}
+.menu-item a{
+    text-decoration: none;
+    color: var(--theme-color1);
+    font-size: 1.2em;
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu-item{
+    display: inline-block;
+}
+.pi-main-footer .menu-drugorzedne-menu-container {
+    text-align: center;
+}
+.pi-single{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.thumbnail-img{
+    text-align: center;
+    padding: 20px 0;
+}
+.pi-single .entry-title{
+    color: var(--theme-color1);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.pi-single h6{
+    text-align: center;
+}
+.pi-single li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.pi-single a{
+    text-decoration: none;
+    color: var(--theme-color2);
+}
+.pi-single-content{
+    padding:20px;
+}
+.pi-widgets-footer li{
+    display: inline-block;
+}
+.pi-widgets-footer{
+    text-align: center;
+}
+.pi-widgets-footer h2{
+    color:slategrey;
+    font-size: 1.3em;
+}
+.pi-widgets-footer a{
+    color:rgb(226, 226, 226);
+    padding:0 20px;
+}
+.widget ul{
+    list-style: none;
+    padding:10px 0;
+}
+.pi-widgets-sidebar a{
+    color: var(--theme-color2);
+    padding:5px 0px;
+}
+.widget a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.widget li{
+    padding:5px 0px;
+}
+.widget-title{
+    color: var(--theme-color1);
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+.pi-page{
+    min-height: 700px;
+    padding-top:40px;
+}
+.pi-front-page{
+    padding-top:30px;
+}
+.pi-blog{
+    margin-top:10px;
+}
