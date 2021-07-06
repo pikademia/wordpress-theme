@@ -4,6 +4,7 @@ require get_template_directory(). '/inc/function-admin.php';
 
 function pikademia_scripts() {
 	wp_enqueue_style( 'pikademia-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+    wp_enqueue_script('pikademia-public-script', get_template_directory_uri() . '/public.js', array('jquery'), rand(), true);
 }
 add_action( 'wp_enqueue_scripts', 'pikademia_scripts' );
 
